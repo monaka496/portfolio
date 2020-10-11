@@ -15,7 +15,18 @@
 <!-- ここから Fontawesome CSS -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 <!-- ここまで Fontawesome CSS -->
-    
+
+<!-- ここから Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139130792-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139130792-5');
+</script>
+<!-- ここまで Global site tag (gtag.js) - Google Analytics -->
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -37,170 +48,112 @@
   </head>
   <body>
 
-<main>
+<header class="text-center mx-auto pt-3">
+  <img src="https://raw.githubusercontent.com/monaka496/portfolio/main/cat.png" class="mt-3 rounded-circle" width="120" height="120">
+</header>
 
-  <section class="py-5 text-center container">
-    <div class="row py-lg-5">
+<main>
+<!-- ここから 見出し部分 -->
+  <section class="py-3 text-center container">
+    <div class="row py-lg-3">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="font-weight-light">もなかのポートフォリオ</h1>
-        <p class="lead text-muted">@monaka496 が運営しているサイト、SNSを紹介します</p>
+        <h1 class="font-weight-light mb-3 font-weight-bold">もなかのポートフォリオ</h1>
+        <p class="text-muted small">@monaka496 が運営しているサイト、SNSを紹介します</p>
         <p>
-          <a href="https://twitter.com/monaka496" class="btn btn-primary my-2"><i class="fab fa-twitter">Twitter</i></a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          <a href="https://think-log.blogspot.com/" class="btn btn-warning my-2"><i class="fab fa-blogger"> Blogger</i></a>
+          <a href="https://twitter.com/monaka496" class="btn btn-primary my-2"><i class="fab fa-twitter"> Twitter</i></a>
+          <a href="https://www.instagram.com/monaka_496/" class="btn btn-info my-2"><i class="fab fa-instagram"> Instagram</i></a>
+          <a href="https://www.youtube.com/channel/UCBXDqO-bOXH7U_Uk44PPoqg" class="btn btn-danger my-2"><i class="fab fa-youtube"> YouTube</i></a>
+          <a href="https://github.com/monaka496/" class="btn btn-dark my-2"><i class="fab fa-github"> GitHub</i></a>
         </p>
       </div>
     </div>
   </section>
+<!-- ここまで 見出し部分 -->
+
 
   <div class="album py-5 bg-light">
     <div class="container">
-
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+<!-- ここから カード1部分 -->
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img class="bd-placeholder-img card-img-top" src="https://raw.githubusercontent.com/monaka496/portfolio/main/blogger.png" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="font-weight-bold">シンクログ</h3>
+              <p class="card-text">Bloggerで運営している雑記ブログです。iPhone、iPadなどのApple製品やRaspberry Pi、Bloggerに関するコンテンツがメイン。</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
               </div>
+              <a href="https://think-log.blogspot.com/" class="btn btn-sm btn-outline-secondary stretched-link">Blogger</a>
             </div>
           </div>
         </div>
+<!-- ここまで カード1部分 -->
+
+<!-- ここから カード2部分 -->
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img class="bd-placeholder-img card-img-top" src="https://raw.githubusercontent.com/monaka496/portfolio/main/twitter.png" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="font-weight-bold">Twitter</h3>
+              <p class="card-text">@monaka496 でつぶやいています。ブログの情報やゲーム、気になったニュースや個人的なつぶやきなど気ままに更新をしています。</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
               </div>
+              <a href="https://twitter.com/monaka496" class="btn btn-sm btn-outline-secondary stretched-link">Twitter</a>
             </div>
           </div>
         </div>
+<!-- ここまで カード2部分 -->
+
+<!-- ここから カード3部分 -->
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img class="bd-placeholder-img card-img-top" src="https://raw.githubusercontent.com/monaka496/portfolio/main/instagram.png" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="font-weight-bold">Instagram</h3>
+              <p class="card-text">食べることが好きなので美味しかった食べ物や作った料理などを投稿しています。ただの趣味アカウントです。ラーメンなどの麺類が多めかも。</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
               </div>
+              <a href="https://www.instagram.com/monaka_496/" class="btn btn-sm btn-outline-secondary stretched-link">Instagram</a>
             </div>
           </div>
         </div>
+<!-- ここまで カード3部分 -->
 
+<!-- ここから カード4部分 -->
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img class="bd-placeholder-img card-img-top" src="https://raw.githubusercontent.com/monaka496/portfolio/main/youtube.png" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="font-weight-bold">YouTube</h3>
+              <p class="card-text">自分が好きなゲームのプレイ動画を投稿しているチャンネルです。動画編集の勉強をして、もっと面白い動画にしたいと思っています。まだ勉強中です。</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
               </div>
+              <a href="https://www.youtube.com/channel/UCBXDqO-bOXH7U_Uk44PPoqg" class="btn btn-sm btn-outline-secondary stretched-link">YouTube</a>
             </div>
           </div>
         </div>
+<!-- ここまで カード4部分 -->
+
+<!-- ここから カード5部分 -->
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img class="bd-placeholder-img card-img-top" src="https://raw.githubusercontent.com/monaka496/portfolio/main/github.png" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="font-weight-bold">GitHub</h3>
+              <p class="card-text">GitHub Pagesの機能を使ってWEB制作の勉強用に使っています。BootstrapやFont awesomeを使って簡単なページを作っています。</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
               </div>
+              <a href="https://www.youtube.com/channel/UCBXDqO-bOXH7U_Uk44PPoqg" class="btn btn-sm btn-outline-secondary stretched-link">GitHub</a>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
+<!-- ここまで カード5部分 -->
         </div>
       </div>
     </div>
@@ -210,11 +163,8 @@
 
 <footer class="text-muted py-5">
   <div class="container">
-    <p class="float-right mb-1">
-      <a href="#">Back to top</a>
-    </p>
-    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+    <p class="mb-0">Made by <a href="https://twitter.com/monaka496">@monaka496</a></p>
+    <p class="mb-1">Designed by <a href="https://getbootstrap.jp/">Bootstrap templates</a> & <a href="https://fontawesome.com/">Font Awesome icons</a></p>
   </div>
 </footer>
 
